@@ -47,7 +47,7 @@ function App() {
     <>
       <Space direction="vertical" style={{ width: "100%" }}>
         <Title>Character checker</Title>
-        <TextArea rows={4} placeholder="Localization string" onChange={handleLoc} value={loc} />
+        <TextArea rows={4} placeholder="Localization string!" onChange={handleLoc} value={loc} />
         <br />
         <br />
         <TextArea rows={4} placeholder="Current source" onChange={handleSrc} value={src} />
